@@ -1,9 +1,16 @@
 import React from "react";
+import NavbarComponent from "../component/navbar";
+import FooterComponent from "../component/footer";
+import HeroImgComponentP from "../component/heroImgP";
+import PricingCardComponent from "../component/pricingCard";
 
 const ProductComponent = () => {
     return(
         <div>
-            <h1>yah di klik..</h1>
+            <NavbarComponent />
+            <HeroImgComponentP />
+            <PricingCardComponent />
+            <FooterComponent /> 
         </div>
     )
 }
